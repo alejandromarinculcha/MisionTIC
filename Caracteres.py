@@ -8,7 +8,6 @@ def conversion1(x):
     else:
         return("El número " + str(x) + " No corresponde al ascii de una vocal mínuscula " + "corresponde a " + y)
 
-
 x = int(input("Ingrese un número: "))
 
 print(conversion1(x))
@@ -25,7 +24,6 @@ def converison2():
         print("El número:", y, "ES PAR")
     else:
         print("El número:", y, "ES IMPAR")
-
 
 converison2()
 
@@ -45,8 +43,11 @@ conversion3(x)
 
 
 # EJERCICIO 4
-a = input("Ingrese una cadena: ")
-if (str.isdigit(a) == True):
-    print("USTED INGRESÓ NÚMEROS Y FUERON: " + a)
-else:
-    print("USTED INGRESÓ ALGUNA PALABRA AQUÍ: " + a)
+def conversion4(a):
+    if (str.isdigit(a) == True):
+        print("USTED INGRESÓ NÚMEROS Y FUERON: " + a)
+    else:
+        print("USTED INGRESÓ ALGUNA PALABRA AQUÍ: " + a)
+
+ingresar = input("Ingrese una cadena: ")
+conversion4(ingresar)
