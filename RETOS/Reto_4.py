@@ -5,7 +5,7 @@ import json
 # Para recibir un diccionario (en el formato JSON).
 # ---------> producto1 = json.loads(input())
 
-# Para crear un diccionaria con dos claves
+# Para crear un diccionario con dos claves
 producto1 = {input(): int(input()), input(): int(input())}
 Lista = input().split(" ")
 
